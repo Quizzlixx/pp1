@@ -37,10 +37,14 @@ error_reporting(E_ALL);
 
     echo "<br><p>Largest</p>";
     echo largest($numbers);
+    echo "<br>";
+
+    echo "<br><p>Remove Duplicates</p>";
+    $newArray = removeDups($numbers);
+    printArr($newArray);
     ?>
 </div>
 <!-- jQuery -->
-<!-- slim jQuery does not support AJAX -->
 <script src="//code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
         crossorigin="anonymous"></script>
