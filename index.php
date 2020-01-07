@@ -27,7 +27,17 @@ error_reporting(E_ALL);
     </div>
 </div> <!-- /header -->
 <div class="container">
+    <?php
+    $numbers = array ( 7, 9, 8, 9, 8, 8, 6);
 
+    function printArr($array) {
+        foreach ($array as $printValue) {
+            echo $printValue."<br>";
+        }
+    }
+
+    printArr($numbers);
+    ?>
 </div>
 <!-- jQuery -->
 <!-- slim jQuery does not support AJAX -->
