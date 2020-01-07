@@ -42,6 +42,11 @@ error_reporting(E_ALL);
     echo "<br><p>Remove Duplicates</p>";
     $newArray = removeDups($numbers);
     printArr($newArray);
+    echo "<br>";
+
+    echo "<p>Distribution</p>";
+    $distributionArray = distribution($numbers);
+    printArr($distributionArray);
     ?>
 </div>
 <!-- jQuery -->
