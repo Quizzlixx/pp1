@@ -28,13 +28,9 @@ error_reporting(E_ALL);
 </div> <!-- /header -->
 <div class="container">
     <?php
-    $numbers = array ( 7, 9, 8, 9, 8, 8, 6);
+    include("functions.php");
 
-    function printArr($array) {
-        foreach ($array as $printValue) {
-            echo $printValue."<br>";
-        }
-    }
+    $numbers = array ( 7, 9, 8, 9, 8, 8, 6);
 
     printArr($numbers);
     ?>
