@@ -32,7 +32,11 @@ error_reporting(E_ALL);
 
     $numbers = array ( 7, 9, 8, 9, 8, 8, 6);
 
+    echo "<p>Print array</p>";
     printArr($numbers);
+
+    echo "<br><p>Largest</p>";
+    echo largest($numbers);
     ?>
 </div>
 <!-- jQuery -->
